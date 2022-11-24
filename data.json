@@ -1,91 +1,454 @@
 [
-  {City:"Albertslund",Code:"2620"},
-  {City:"Allerød",Code:"3450"},
-  {City:"Allinge",Code:"3770"},
-  {City:"Bagsværd",Code:"2880"},
-  {City:"Ballerup",Code:"2750"},
-  {City:"Birkerød",Code:"3460"},
-  {City:"Brøndby",Code:"2605"},
-  {City:"Brøndby Strand",Code:"2660"},
-  {City:"Brønshøj",Code:"2700"},
-  {City:"Charlottenlund",Code:"2920"},
-  {City:"Dragør",Code:"2791"},
-  {City:"Dronningmølle",Code:"3120"},
-  {City:"Dyssegård",Code:"2870"},
-  {City:"Espergærde",Code:"3060"},
-  {City:"Farum",Code:"3520"},
-  {City:"Fredensborg",Code:"3480"},
-  {City:"Frederiksberg",Code:"2000"},
-  {City:"Frederikssund",Code:"3600"},
-  {City:"Frederiksværk",Code:"3300"},
-  {City:"Gentofte",Code:"2820"},
-  {City:"Gilleleje",Code:"3250"},
-  {City:"Glostrup",Code:"2600"},
-  {City:"Græsted",Code:"3230"},
-  {City:"Gudhjem",Code:"3760"},
-  {City:"Gørløse",Code:"3330"},
-  {City:"Hasle",Code:"3790"},
-  {City:"Hedehusene",Code:"2640"},
-  {City:"Hellebæk",Code:"3150"},
-  {City:"Hellerup",Code:"2900"},
-  {City:"Helsinge",Code:"3200"},
-  {City:"Helsingør",Code:"3000"},
-  {City:"Herlev",Code:"2730"},
-  {City:"Hillerød",Code:"3400"},
-  {City:"Holte",Code:"2840"},
-  {City:"Hornbæk",Code:"3100"},
-  {City:"Humlebæk",Code:"3050"},
-  {City:"Hundested",Code:"3390"},
-  {City:"Hvidovre",Code:"2650"},
-  {City:"Hørsholm",Code:"2970"},
-  {City:"Ishøj",Code:"2635"},
-  {City:"Jægerspris",Code:"3630"},
-  {City:"Kastrup",Code:"2770"},
-  {City:"Klampenborg",Code:"2930"},
-  {City:"Klemensker",Code:"3782"},
-  {City:"Kokkedal",Code:"2980"},
-  {City:"Kongens Lyngby",Code:"2800"},
-  {City:"Kvistgård",Code:"3490"},
-  {City:"København N",Code:"2200"},
-  {City:"København NV",Code:"2400"},
-  {City:"København S",Code:"2300"},
-  {City:"København SV",Code:"2450"},
-  {City:"København Ø",Code:"2100"},
-  {City:"Liseleje",Code:"3360"},
-  {City:"Lynge",Code:"3540"},
-  {City:"Melby",Code:"3370"},
-  {City:"Måløv",Code:"2760"},
-  {City:"Nexø",Code:"3730"},
-  {City:"Nivå",Code:"2990"},
-  {City:"Nærum",Code:"2850"},
-  {City:"Rungsted Kyst",Code:"2960"},
-  {City:"Rødovre",Code:"2610"},
-  {City:"Rønne",Code:"3700"},
-  {City:"Skibby",Code:"4050"},
-  {City:"Skodsborg",Code:"2942"},
-  {City:"Skovlunde",Code:"2740"},
-  {City:"Skævinge",Code:"3320"},
-  {City:"Slangerup",Code:"3550"},
-  {City:"Smørum",Code:"2765"},
-  {City:"Snekkersten",Code:"3070"},
-  {City:"Stenløse",Code:"3660"},
-  {City:"Svaneke",Code:"3740"},
-  {City:"Søborg",Code:"2860"},
-  {City:"Taastrup",Code:"2630"},
-  {City:"Tikøb",Code:"3080"},
-  {City:"Tisvildeleje",Code:"3220"},
-  {City:"Valby",Code:"2500"},
-  {City:"Vallensbæk",Code:"2625"},
-  {City:"Vallensbæk Strand",Code:"2665"},
-  {City:"Vanløse",Code:"2720"},
-  {City:"Vedbæk",Code:"2950"},
-  {City:"Vejby",Code:"3210"},
-  {City:"Veksø Sjælland",Code:"3670"},
-  {City:"Virum",Code:"2830"},
-  {City:"Værløse",Code:"3500"},
-  {City:"Ølsted",Code:"3310"},
-  {City:"Ølstykke",Code:"3650"},
-  {City:"Østermarie",Code:"3751"},
-  {City:"Aakirkeby",Code:"3720"},
-  {City:"Ålsgårde",Code:"3140"}
+  {
+        City: "Hjørring",
+        Code: "9800"
+    },
+    {
+        City: "Kolding",
+        Code: "6000"
+    },
+    {
+        City: "Nørresundby",
+        Code: "9400"
+    },
+    {
+        City: "Middelfart",
+        Code: "5500"
+    },
+    {
+        City: "Odense C",
+        Code: "5000"
+    },
+    {
+        City: "Bramming",
+        Code: "6740"
+    },
+    {
+        City: "Fredericia",
+        Code: "7000"
+    },
+    {
+        City: "Vejle",
+        Code: "7100"
+    },
+    {
+        City: "Horsens",
+        Code: "8700"
+    },
+    {
+        City: "Aarhus N",
+        Code: "8200"
+    },
+    {
+        City: "Allingåbro",
+        Code: "8961"
+    },
+    {
+        City: "Odense M",
+        Code: "5230"
+    },
+    {
+        City: "Viborg",
+        Code: "8800"
+    },
+    {
+        City: "Nordborg",
+        Code: "6430"
+    },
+    {
+        City: "Ikast",
+        Code: "7430"
+    },
+    {
+        City: "Hammel",
+        Code: "8450"
+    },
+    {
+        City: "Aalborg",
+        Code: "9000"
+    },
+    {
+        City: "Ribe",
+        Code: "6760"
+    },
+    {
+        City: "Hobro",
+        Code: "9500"
+    },
+    {
+        City: "Aalborg Øst",
+        Code: "9220"
+    },
+    {
+        City: "Roskilde",
+        Code: "4000"
+    },
+    {
+        City: "Thisted",
+        Code: "7700"
+    },
+    {
+        City: "Esbjerg N",
+        Code: "6715"
+    },
+    {
+        City: "Gjern",
+        Code: "8883"
+    },
+    {
+        City: "Albertslund",
+        Code: "2620"
+    },
+    {
+        City: "Allerød",
+        Code: "3450"
+    },
+    {
+        City: "Allinge",
+        Code: "3770"
+    },
+    {
+        City: "Bagsværd",
+        Code: "2880"
+    },
+    {
+        City: "Ballerup",
+        Code: "2750"
+    },
+    {
+        City: "Birkerød",
+        Code: "3460"
+    },
+    {
+        City: "Brøndby",
+        Code: "2605"
+    },
+    {
+        City: "Brøndby Strand",
+        Code: "2660"
+    },
+    {
+        City: "Brønshøj",
+        Code: "2700"
+    },
+    {
+        City: "Charlottenlund",
+        Code: "2920"
+    },
+    {
+        City: "Dragør",
+        Code: "2791"
+    },
+    {
+        City: "Dronningmølle",
+        Code: "3120"
+    },
+    {
+        City: "Dyssegård",
+        Code: "2870"
+    },
+    {
+        City: "Espergærde",
+        Code: "3060"
+    },
+    {
+        City: "Farum",
+        Code: "3520"
+    },
+    {
+        City: "Fredensborg",
+        Code: "3480"
+    },
+    {
+        City: "Frederiksberg",
+        Code: "2000"
+    },
+    {
+        City: "Frederikssund",
+        Code: "3600"
+    },
+    {
+        City: "Frederiksværk",
+        Code: "3300"
+    },
+    {
+        City: "Gentofte",
+        Code: "2820"
+    },
+    {
+        City: "Gilleleje",
+        Code: "3250"
+    },
+    {
+        City: "Glostrup",
+        Code: "2600"
+    },
+    {
+        City: "Græsted",
+        Code: "3230"
+    },
+    {
+        City: "Gudhjem",
+        Code: "3760"
+    },
+    {
+        City: "Gørløse",
+        Code: "3330"
+    },
+    {
+        City: "Hasle",
+        Code: "3790"
+    },
+    {
+        City: "Hedehusene",
+        Code: "2640"
+    },
+    {
+        City: "Hellebæk",
+        Code: "3150"
+    },
+    {
+        City: "Hellerup",
+        Code: "2900"
+    },
+    {
+        City: "Helsinge",
+        Code: "3200"
+    },
+    {
+        City: "Helsingør",
+        Code: "3000"
+    },
+    {
+        City: "Herlev",
+        Code: "2730"
+    },
+    {
+        City: "Hillerød",
+        Code: "3400"
+    },
+    {
+        City: "Holte",
+        Code: "2840"
+    },
+    {
+        City: "Hornbæk",
+        Code: "3100"
+    },
+    {
+        City: "Humlebæk",
+        Code: "3050"
+    },
+    {
+        City: "Hundested",
+        Code: "3390"
+    },
+    {
+        City: "Hvidovre",
+        Code: "2650"
+    },
+    {
+        City: "Hørsholm",
+        Code: "2970"
+    },
+    {
+        City: "Ishøj",
+        Code: "2635"
+    },
+    {
+        City: "Jægerspris",
+        Code: "3630"
+    },
+    {
+        City: "Kastrup",
+        Code: "2770"
+    },
+    {
+        City: "Klampenborg",
+        Code: "2930"
+    },
+    {
+        City: "Klemensker",
+        Code: "3782"
+    },
+    {
+        City: "Kokkedal",
+        Code: "2980"
+    },
+    {
+        City: "Kongens Lyngby",
+        Code: "2800"
+    },
+    {
+        City: "Kvistgård",
+        Code: "3490"
+    },
+    {
+        City: "København N",
+        Code: "2200"
+    },
+    {
+        City: "København NV",
+        Code: "2400"
+    },
+    {
+        City: "København S",
+        Code: "2300"
+    },
+    {
+        City: "København SV",
+        Code: "2450"
+    },
+    {
+        City: "København Ø",
+        Code: "2100"
+    },
+    {
+        City: "Liseleje",
+        Code: "3360"
+    },
+    {
+        City: "Lynge",
+        Code: "3540"
+    },
+    {
+        City: "Melby",
+        Code: "3370"
+    },
+    {
+        City: "Måløv",
+        Code: "2760"
+    },
+    {
+        City: "Nexø",
+        Code: "3730"
+    },
+    {
+        City: "Nivå",
+        Code: "2990"
+    },
+    {
+        City: "Nærum",
+        Code: "2850"
+    },
+    {
+        City: "Rungsted Kyst",
+        Code: "2960"
+    },
+    {
+        City: "Rødovre",
+        Code: "2610"
+    },
+    {
+        City: "Rønne",
+        Code: "3700"
+    },
+    {
+        City: "Skibby",
+        Code: "4050"
+    },
+    {
+        City: "Skodsborg",
+        Code: "2942"
+    },
+    {
+        City: "Skovlunde",
+        Code: "2740"
+    },
+    {
+        City: "Skævinge",
+        Code: "3320"
+    },
+    {
+        City: "Slangerup",
+        Code: "3550"
+    },
+    {
+        City: "Smørum",
+        Code: "2765"
+    },
+    {
+        City: "Snekkersten",
+        Code: "3070"
+    },
+    {
+        City: "Stenløse",
+        Code: "3660"
+    },
+    {
+        City: "Svaneke",
+        Code: "3740"
+    },
+    {
+        City: "Søborg",
+        Code: "2860"
+    },
+    {
+        City: "Taastrup",
+        Code: "2630"
+    },
+    {
+        City: "Tikøb",
+        Code: "3080"
+    },
+    {
+        City: "Tisvildeleje",
+        Code: "3220"
+    },
+    {
+        City: "Valby",
+        Code: "2500"
+    },
+    {
+        City: "Vallensbæk",
+        Code: "2625"
+    },
+    {
+        City: "Vallensbæk Strand",
+        Code: "2665"
+    },
+    {
+        City: "Vanløse",
+        Code: "2720"
+    },
+    {
+        City: "Vedbæk",
+        Code: "2950"
+    },
+    {
+        City: "Vejby",
+        Code: "3210"
+    },
+    {
+        City: "Veksø Sjælland",
+        Code: "3670"
+    },
+    {
+        City: "Virum",
+        Code: "2830"
+    },
+    {
+        City: "Værløse",
+        Code: "3500"
+    },
+    {
+        City: "Ølsted",
+        Code: "3310"
+    },
+    {
+        City: "Ølstykke",
+        Code: "3650"
+    },
+    {
+        City: "Østermarie",
+        Code: "3751"
+    },
+    {
+        City: "Aakirkeby",
+        Code: "3720"
+    },
+    {
+        City: "Ålsgårde",
+        Code: "3140"
+    }
 ]
